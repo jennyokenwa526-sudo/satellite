@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Satellite {
     public static void main(String[] args) throws Exception {
-        Scanner sc = new Scanner(new File("input2.txt"));
+        Scanner sc = new Scanner(new File("input3.txt"));
         int n = sc.nextInt(), m = sc.nextInt();
         int[][] img1 = readImage(sc, n, m);
         int[][] img2 = readImage(sc, n, m);
